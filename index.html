@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Styles</title>
+    <style>
+        .city{
+            padding: 50px;
+            margin: 25px;
+            color: white;
+            background-color: blueviolet;
+        }
+        .city--green{
+            color: pink;
+            background-color: green;
+        }
+
+        #london{
+            font-size: 60px;
+        }
+
+        #berlin{
+            color: burlywood;
+        }
+
+        h2{
+            font-size: 48px;
+        }
+        p{
+            font-size: 24px;
+        }
+
+    </style>
 </head>
+
 <body>
+
+    <div class="city">
+        <h2 id="london">London</h2>
+        <p>London is the capital city of England</p>
+    </div>
+
+    <div class="city">
+        <h2 id="ankara">Ankara</h2>
+        <p>Ankara is the capital city of Turkey</p>
+    </div>
+
+    <div class="city    city--green">
+        <h2 id="paris">Paris</h2>
+        <p>Paris is the capital city of France</p>
+    </div>
+
+    <div class="city">
+        <h2 id="berlin">Berlin</h2>
+        <p>Berlin is the capital city of Germany</p>
+    </div>
+
     
+
 </body>
+
 </html>
