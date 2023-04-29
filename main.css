@@ -1,0 +1,25 @@
+.city{
+    padding: 50px;
+    margin: 25px;
+    color: white;
+    background-color: blueviolet;
+}
+.city--green{
+    color: pink;
+    background-color: green;
+}
+
+#london{
+    font-size: 60px;
+}
+
+#berlin{
+    color: burlywood;
+}
+
+h2{
+    font-size: 48px;
+}
+p{
+    font-size: 24px;
+}
